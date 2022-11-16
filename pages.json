@@ -37,6 +37,27 @@
             
         }
     ],
+	"subPackages": [
+	  {
+	    "root": "subpkg",
+	    "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                
+                }
+                
+                }
+            ]
+	  }
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "loeey-shop",
@@ -71,7 +92,7 @@
 	        "selectedIconPath": "static/tab_icons/my-active.png"
 	      }
 	    ]
-	  },
+	  }, 
 	"uniIdRouter": {},
 	"condition" : { //模式配置，仅开发期间生效
 		"current": 0, //当前激活的模式(list 的索引项)
